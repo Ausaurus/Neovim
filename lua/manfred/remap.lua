@@ -101,3 +101,4 @@ vim.keymap.set('n', '<Leader>mc', function()
 end, { desc = "Compile current C++ file" })
 
 vim.keymap.set('n', '<leader>h', '<cmd>terminal<CR>')
+vim.keymap.set('n', 'gq', '<cmd>cclose<CR>', { desc = 'Close Quickfix list' })
