@@ -102,3 +102,5 @@ end, { desc = "Compile current C++ file" })
 
 vim.keymap.set('n', '<leader>h', '<cmd>terminal<CR>')
 vim.keymap.set('n', 'gq', '<cmd>cclose<CR>', { desc = 'Close Quickfix list' })
+vim.keymap.set("n", "<leader>bn", "<cmd>bnext<CR>",     { silent = true, desc = "Next buffer" })
+vim.keymap.set("n", "<leader>bp", "<cmd>bprevious<CR>", { silent = true, desc = "Previous buffer" })
